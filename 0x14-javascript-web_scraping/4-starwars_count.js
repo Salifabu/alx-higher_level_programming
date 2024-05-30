@@ -17,4 +17,3 @@ function countAppearances (movieList) {
 request(url, (e, r, body) => {
   countAppearances(JSON.parse(body).results);
 });
-
